@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.fragments.UsuarioFragment">
+
+    <ImageView
+        android:id="@+id/foto_perfil"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/profileimage">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/botoncamara"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:textSize="10sp"
+        android:layout_marginStart="120dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="Camara"
+        android:fontFamily="@font/myriad_semibold"
+        tools:ignore="SmallSp">
+    </Button>
+
+    <Button
+        android:id="@+id/botongaleria"
+        android:layout_width="80dp"
+        android:textSize="10sp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="210dp"
+        android:backgroundTint="@color/fondo_inicio"
+        android:text="Galeria"
+        android:fontFamily="@font/myriad_semibold"
+        tools:ignore="SmallSp">
+    </Button>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="280dp"
+        android:textStyle="normal"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="Nombre Completo"/>
+
+    <EditText
+        android:id="@+id/nombreCompleto"
+        android:layout_width="238dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:fontFamily="@font/myriad_regular"
+        android:gravity="center"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textIsSelectable="false"
+        tools:ignore="TouchTargetSizeCheck">
+
+    </EditText>
+
+
+    <ImageButton
+        android:id="@+id/nombreedit"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/border_buttom_redondos"
+        android:src="@drawable/editar"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="390dp"
+        android:textStyle="normal"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="Correo Electronico"/>
+
+    <EditText
+        android:id="@+id/correoCompleto"
+        android:layout_width="238dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:fontFamily="@font/myriad_regular"
+        android:gravity="center"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        android:textIsSelectable="false"
+        tools:ignore="TouchTargetSizeCheck">
+
+    </EditText>
+
+
+    <ImageButton
+        android:id="@+id/nombreedit2"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/border_buttom_redondos"
+        android:src="@drawable/editar"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="520dp"
+        android:textStyle="normal"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="Direccion"/>
+
+    <EditText
+        android:id="@+id/direccion"
+        android:layout_width="238dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:fontFamily="@font/myriad_regular"
+        android:gravity="center"
+        android:hint="Direccion"
+        android:inputType="text"
+        android:textIsSelectable="false"
+        tools:ignore="TouchTargetSizeCheck">
+
+    </EditText>
+
+
+    <ImageButton
+        android:id="@+id/nombreedit3"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/border_buttom_redondos"
+        android:src="@drawable/editar"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck">
+
+    </ImageButton>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/buttonNavigationHome"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="650dp"
+        android:background="@color/white"
+        app:itemIconTint="@color/color_secundario"
+        app:itemTextColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/home_navigation_bar"
+        tools:ignore="MissingContrains">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".view.ui.activities.RecuperarActivity"
+    tools:visibility="visible">
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="14dp"
+        android:layout_height="747dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:background="#4CAF50"
+        android:cropToPadding="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/stylo_borde_editext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="14dp"
+        android:layout_height="741dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="true"
+        android:background="#4CAF50"
+        android:cropToPadding="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/stylo_borde_editext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <Button
+        android:id="@+id/Recuperarbutton"
+        android:layout_width="144dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="90dp"
+        android:backgroundTint="@color/color_secundario"
+        android:gravity="center"
+        android:text="RESTAURAR"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/correorec"
+        android:layout_width="285dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/stylo_borde_editext2"
+        android:ems="10"
+        android:fontFamily="@font/myriad_regular"
+        android:gravity="center"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/Recuperarbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="334dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/capsmall_clean"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Restaurar Contraseña"
+        android:textColor="@color/color_secundario"
+        android:textSize="32sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/correorec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="261dp"
+        android:layout_height="235dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="logo cerveceria"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

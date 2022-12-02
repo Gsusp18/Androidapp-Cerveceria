@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CERVECERIA LA HERMANDAD</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ubicacion_del_pedido">ubicacion del pedido</string>
+    <string name="Recomendados">Recomendados</string>
+    <string name="usuario">usuario</string>
+    <string name="logo">logo</string>
+    <string name="shop">shop</string>
+    <string name="compras">compras</string>
+    <string name="comentarios">comentarios</string>
+    <string name="ApiMap" templateMergeStrategy="preserve" translatable="false">AIzaSyBBFHwrUTlLHOiqk4EOXmJMBePJPVyseC4</string>
+</resources>

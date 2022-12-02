@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home">
+    </item>
+    <item
+        android:id="@+id/tienda"
+        android:title="Tienda"
+        android:icon="@drawable/pedidos">
+    </item>
+
+    <item
+        android:id="@+id/recomendado"
+        android:title="Recomendados"
+        android:icon="@drawable/recomendado">
+    </item>
+    <item
+        android:id="@+id/mapa"
+        android:title="Mapa"
+        android:icon="@drawable/mapa">
+    </item>
+
+
+</menu>

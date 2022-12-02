@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.fragments.ComprasFragment">
+
+    <RelativeLayout
+        android:id="@+id/encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/theme_gradients_background">
+
+        <ImageView
+            android:layout_width="111dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/logo">
+
+        </ImageView>
+        <TextView
+            android:layout_width="281dp"
+            android:layout_height="115dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="81dp"
+            android:gravity="center"
+            android:text="Carrito De Compras"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/capsmall_clean"
+            android:textSize="40sp">
+
+        </TextView>
+    </RelativeLayout>
+
+</FrameLayout>
